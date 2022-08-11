@@ -1,8 +1,22 @@
 {
-  "name": "example-app",
-  "description": "a really cool app",
+  "name": "html5-geolocation-tool",
   "version": "1.0.0",
-  "engines": {
-    "node": "18.x"
+  "description": "html5-geolocation-tool-js =========================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esri/html5-geolocation-tool-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esri/html5-geolocation-tool-js/issues"
+  },
+  "homepage": "https://github.com/Esri/html5-geolocation-tool-js#readme",
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }
