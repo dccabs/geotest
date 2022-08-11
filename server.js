@@ -4,7 +4,7 @@ const app = express();
 const port = 3001;
 
 app.use(express.json());
-app.use(express.static('client-static-website'));
+app.use(express.static('public'));
 
 app.use('/', (req, res) => {
     res.sendFile(path.join(__dirname+'/public/index.html'));
