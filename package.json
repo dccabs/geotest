@@ -2,7 +2,7 @@
   "name": "html5-geolocation-tool",
   "version": "1.0.0",
   "description": "html5-geolocation-tool-js =========================",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
